@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head> 
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="bg-container">
+        <div class="image-container">
+            <img src="https://images.unsplash.com/photo-1574634534894-89d7576c8259?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" id="mainImage" class="main-image" />
+            <div class="small-images">
+                <img src="https://images.unsplash.com/photo-1598971862198-c6bcc057a579?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" id="image1" class="image" />
+                <img src="https://images.unsplash.com/photo-1624270295030-25c43afb9e4e?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" id="image2" class="image" />
+                <img src="https://images.unsplash.com/photo-1623151949519-88ccfe8d57a5?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" id="image3" class="image" />
+                <img src="https://images.unsplash.com/photo-1622378197331-535545222276?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" id="image4" class="image" />
+            </div>
+        </div>
+
+        <div class="content-container">
+            <h1 class="mermeto">Mermeto</h1>
+            <h1 class="main-heading">Embrace Sideboard</h1>
+            <h1 class="pricing">$12999.00 <span class="discount">30% off</span> </h1>
+            <p class="line-throgh">$19999.00</p>
+            <hr>
+            <p class="color">Choose a Color</p>
+            <div class="color-container">
+                <button class="box1" id = "b1"> </button>
+                <button class="box2" id = "b2"> </button>
+                <button class="box3" id = "b3"> </button>
+                <button class="box4" id = "b4"> </button>
+            </div>
+            <hr>
+            <p class="color">Choose a Size</p>
+            <div class="radio-btn">
+                <dic class="small-container">
+                    <input type="radio" class="radio" id="small" value="small" name="size" checked>
+                    <label for="small" class="label">Small</label>
+                </dic>
+                <dic class="small-container">
+                    <input type="radio" id="medium" value="medium" name="size" >
+                    <label for="medium" class="label">Medium</label>
+                </dic>
+                <dic class="small-container">
+                    <input type="radio" id="large" value="large" name="size" >
+                    <label for="large" class="label">Large</label>
+                </dic>
+                <dic class="small-container">
+                    <input type="radio" id="extralarge" value="extralage" name="size">
+                    <label for="extralarge" class="label">Extra Large</label>
+                </dic>
+                <dic class="small-container">
+                    <input type="radio" id="xxl" value="xxl" name="size">
+                    <label for="xxl" class="label">XXL</label>
+                </dic>
+            </div>
+            <div class = "qunatity-btn">
+                <button onClick="onDecrement()" class="button1">-</button>
+                <p id="counterValue" class="qunatity-btn">1</p>
+                <button onClick="onIncrement()" class="button2">+</button>
+            </div>
+            <i class="icon fa fa-quote-left fa-2xl"></i>
+            <button class="addtocart-btn" id="addToCartBtn" type= "submit"> <i class="fa fas-home"></i>Add To Cart</button>
+            <p id="message"></p>
+            <hr>
+            <p class="paragraph">
+                The Embrace Sidebar is a stylish wear. With a top cloth
+                desiged to provide superior protection and look great, this
+                storage solution is both functional and attractive. It fits
+                seamlessly into any home decor, with clean lines and a
+                timeless lokk. Crafted from premium materials for a
+                combination of style, durability, and realiability.
+            </p>
+        </div>
+    </div>
+<script src="/script.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
